@@ -1,0 +1,38 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+
+div.cellOff {
+    border: 1px solid black;
+    background-color: white;
+    float: left;
+    width: 1%;
+    height: 1%;
+}
+
+div.cellOn {
+    border: 1px solid white;
+    background-color: black;
+    float: left;
+    width: 1%;
+    height: 1%;
+}
+
+div.parentDiv {
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+div.lifeControlsDiv {
+    width:  20%;
+    height: 100%;
+    float: left;
+}
+
